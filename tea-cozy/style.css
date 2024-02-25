@@ -1,0 +1,195 @@
+* {
+    padding-bottom: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+a {
+    color: seashell;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 33px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    color: seashell;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0 0 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    height: 69px;
+    width: 100%;
+    top: 0px;
+    position: fixed;
+    z-index: 1;
+    flex-grow: 1;
+}
+
+.logo {
+    height: 50px;
+    padding-left: 10px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item a {
+    color: seashell;
+    text-decoration: underline;
+    padding: 0 20px;
+}
+
+main {
+    padding: 69px 0 0 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Mission Section */
+
+#mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    display: flex;
+    min-height: 700px;
+}
+
+.image-text {
+    max-width: 1200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Featured Tea Section */
+
+.fttext {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#featuredtea {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.images {
+    height: 200px;
+    max-width: 300px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.images::after {
+    content: "";
+    max-width: 300px;
+}
+
+figcaption {
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+}
+
+/* Locations Section */
+
+#locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*wgsfwy*_ga*MDEwNzU3NjQyOS4xNzA3ODIxNzIz*_ga_3LRZM6TM9L*MTcwNzgyMTcyOC4xLjAuMTcwNzgyMTcyOC4wLjAuMA..");
+    height: 500px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.location {
+    opacity: 1;
+    padding: 10px;
+    margin: 5px 20px;
+    background-color: black;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Contact Section*/
+
+.contact {
+    min-height: 200px;
+}
+
+/*Footer*/
+
+.copy {
+    text-align: left;
+    padding: 20px;
+}
